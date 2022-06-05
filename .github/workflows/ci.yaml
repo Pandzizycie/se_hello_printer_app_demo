@@ -23,3 +23,6 @@ jobs:
         # testy zaawansowane
       - name: Tests verbose
         run: make testverbose
+
+      - name: Run lint
+          run: make lint
