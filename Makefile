@@ -13,3 +13,6 @@ test:
 
 lint:
 	flake8 hello_world test # noqa
+
+testverbose:
+	PYTHONPATH=. py.test --verbose -s
