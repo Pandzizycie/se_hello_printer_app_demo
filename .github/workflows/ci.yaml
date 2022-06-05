@@ -25,4 +25,4 @@ jobs:
         run: make testverbose
 
       - name: Run lint
-          run: make lint
+        run: make lint
